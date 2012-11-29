@@ -1,64 +1,32 @@
-Here at GitHub, we're no strangers to hosting or sponsoring hackathons. With the growing number of games and game development resources on GitHub, we thought it was about time to throw our very own game jam!
+JETMAN JR
+-------------
 
-## The Challenge
+Jetman jr is a game loosely based cave exploration and branching.
 
-You have the entire month of November to create a **web-based** game *loosely* built around one or more of the following themes:
+License
+-------------
+The game uses ImpactJS, which has a separate license. The game code for
+Jetman jr is released under BSD License 3, which means you're free to fork it,
+develop new versions and release them under your own name. I strongly encourage 
+and appreciate pull requests for the current game, and would be delighted 
+to hear from anyone who decide to create a new version of the game.
 
-* forking (or forks)
-* branching (or branches)
-* cloning (or clones)
-* pushing
-* pulling
+Where to play
+-------------
+http://www.robbestad.com/games/jetmanjr
 
-What do we mean by **loosely** based on these concepts? We literally mean, *loosely* based. Some examples might be a FPS where you throw forks at water balloons, an educational game about DNA cloning, or perhaps a platformer where you push and pull objects.
+[I love Jetman jr](http://www.robbestad.com/games/jetmanjr/images/screenshot.png)
 
-Your game. Your rules. You can participate as an individual or as a team. You're encouraged to use open source libraries, frameworks, graphics, and sounds.
 
-## Prizes
+How to play
+-------------
+Move with arrow keys, [j] to jump, [z] to drop dynamites and [space] to shoot
 
-We have 5 shiny new iPads with Retina displays (64GB wifi models) to give to our winners (or Apple Store Credit equivalent). Runners up will receive GitHub swag of their choice ($100 credit for the [GitHub Shop](http://shop.github.com/)). If you have a team submission, we'll give you Apple Store credit equal to the value of the iPad. You can split it with your teammates as appropriate.
+Credit
+-------------
+Jetman jr is written by:
 
-All of the winners and runners up will be showcased on our blog.
+* [Sven Anders Robbestad](http://twitter.com/realsven), Professional web developer working at SOL.no, amateur game developer on the side 
+* Some game art is downloaded from opengameart.org, the rest is created by the developer under the same license as the game code. 
+* Music is by Metaruka from opengameart.org
 
-<img src="http://i.imgur.com/lxZrD.png" style="border:0;">
-
-### Everyone's a winner!
-
-All participants will receive a limited edition [Coderwall](http://www.coderwall.com) badge as shown above. Winners and runners up will also get their own special version of it.
-
-## Judging
-
-We have a number of awesome judges who graciously volunteered to take a look at all the entries!
-
-* [David Czarnecki](http://twitter.com/CzarneckiD), Lead Engineer at Agora Games
-* [Eric Preisz](https://twitter.com/epreisz), CEO of GarageGames
-* [Matt Hackett](https://twitter.com/#!/richtaur), Co-founder of Lost Decade Games
-* [Lee Reilly](http://twitter.com/leereilly), Gamer Dad and Software Developer at GitHub
-* [Romana Ramzan](https://twitter.com/Manak/), Denki's Player Champion. PhD Researcher. Organiser of Scottish Game Jam.
-
-## Rules
-
-* To qualify for entry as an **individual** you must fork the [github/game-off-2012](https://github.com/github/game-off-2012) repository to your individual account
-* To qualify for entry as a **team** you must fork the [github/game-off-2012](https://github.com/github/game-off-2012) to a [free organization account](https://github.com/settings/organizations)
-* All entries must be web-based i.e. playable in a browser. HTML5, WebGL, Unity, Torque 3D, Node JS, Flash is all possible - just be sure the source is made available on your fork.
-* You must be over the age of 13
-
-## Instructions
-
-* If you don't already have a GitHub account, [sign up now](https://github.com/signup/free) - it's free!
-* Fork the [github/game-off-2012](https://github.com/github/game-off-2012) repository to your individual account (or to a free organization account)
-* Be sure to follow @github on Twitter for updates
-* Make sure your code is pushed to the master branch of before Dec 1st!
-* Make sure you have a README file with a brief description, what open source projects (if any) you used, and a screenshot.
-* Your repo should have a brief description and a URL where the game is playable entered into the fields shown below (this will make our judging process easier):
-
-![](https://img.skitch.com/20121010-x2ecpu95fi91us6hbfehg2dgit.png)
-
-Winners will be announced before Christmas :santa:
-
-# Comments / Questions / Help
-
-* New to Git, GitHub, and/or version control? Check out our [help documentation](https://help.github.com/) to get started!
-* Questions about Git/GitHub? Please email support@github.com and be sure to include 'GitHub Game Off' in the subject.
-* Questions specific to the GitHub Game Off? Please [create an issue](https://github.com/github/game-off-2012/issues/new). That will be the offical FAQ.
-* The official Twitter hashtag is [#ggo12](https://twitter.com/search/realtime?q=%23ggo12).
