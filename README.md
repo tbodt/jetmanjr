@@ -15,7 +15,7 @@ Where to play
 -------------
 http://www.robbestad.com/games/jetmanjr
 
-[I love Jetman jr](http://www.robbestad.com/games/jetmanjr/images/screenshot.png)
+[I love Jetman jr](http://www.robbestad.com/games/jetmanjr/media/screenshot.png)
 
 
 How to play
