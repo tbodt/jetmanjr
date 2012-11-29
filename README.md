@@ -6,9 +6,9 @@ Jetman jr is a game loosely based cave exploration and branching.
 License
 -------------
 The game uses ImpactJS, which has a separate license. The game code for
-Jetman jr is released under BSD License 3, which means you're free to fork it,
-develop new versions and release them under your own name. I strongly encourage 
-and appreciate pull requests for the current game, and would be delighted 
+Jetman jr is released under BSD License 3 (http://opensource.org/licenses/BSD-3-Clause), 
+which means you're free to fork it, develop new versions and release them under your own name. 
+I strongly encourage  and appreciate pull requests for the current game, and would be delighted 
 to hear from anyone who decide to create a new version of the game.
 
 Where to play
