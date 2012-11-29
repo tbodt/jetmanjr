@@ -1,7 +1,10 @@
 JETMAN JR
 -------------
 
-Jetman jr is a game loosely based cave exploration and branching.
+Use your jetpack to explore caverns! Destroy your enemies with lasers and dynamites. Your mission: to find the
+old git that got lost exploring the caverns looking for treasure. Find him, Jetman. Be the hero!
+
+Also, this game is loosely about branching. 
 
 License
 -------------
