@@ -417,7 +417,7 @@ this.currentAnim.update();},getSpawnPos:function()
 
 // lib/game/entities/frosk.js
 ig.baked=true;ig.module('game.entities.frosk').requires('impact.entity','game.entities.particle').defines(function()
-{EntityFrosk=ig.Entity.extend({size:{x:20,y:16},offset:{x:0,y:0},type:ig.Entity.TYPE.B,checkAgainst:ig.Entity.TYPE.A,collides:ig.Entity.COLLIDES.NEVER,health:40,shootTimer:null,shootWaitTimer:null,canShoot:false,scaleTimer:new ig.Timer(0.1),animSheet:new ig.AnimationSheet('media/sprites/frosk.png',20,16),sfxHit:new ig.Sound('media/sounds/drygib.ogg'),scale:{x:1,y:1},_offset:{x:0,y:0},_scale:{x:1,y:1},_size:{x:0,y:0},init:function(x,y,settings)
+{EntityFrosk=ig.Entity.extend({size:{x:20,y:16},offset:{x:0,y:0},type:ig.Entity.TYPE.B,checkAgainst:ig.Entity.TYPE.A,collides:ig.Entity.COLLIDES.NEVER,health:40,shootTimer:null,shootWaitTimer:null,canShoot:false,scaleTimer:new ig.Timer(0.1),animSheet:new ig.AnimationSheet('media/sprites/frosk.png',20,16),sfxHit:new ig.Sound('media/sounds/drygib.ogg'),scale:{x:1,y:1},_offset:{x:0,y:0},_scale:{x:2,y:2},_size:{x:0,y:0},init:function(x,y,settings)
 {this.parent(x,y,settings);this.shootWaitTimer=new ig.Timer(1);this.shootTimer=new ig.Timer(10);this.addAnim('idle',0.5,[0,1,2]);this.addAnim('shoot',0.5,[3,4]);this.addAnim('hit',0.1,[3]);this.parent(x,y,settings);this._offset.x=this.offset.x;this._offset.y=this.offset.y;this._size.x=this.size.x;this._size.y=this.size.y;this.setScale(this.scale.x,this.scale.y);},update:function()
 {if(this.currentAnim==this.anims.hit&&this.currentAnim.loopCount)
 {this.currentAnim=this.anims.idle;this.shootWaitTimer.set(0.5);}
