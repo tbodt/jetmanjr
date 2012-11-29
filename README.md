@@ -15,7 +15,8 @@ Where to play
 -------------
 http://www.robbestad.com/games/jetmanjr
 
-[Screenshot] 
+Screenshot 
+-------------
 <img src="http://www.robbestad.com/games/jetmanjr/media/screenshot.png">
 
 
@@ -29,5 +30,5 @@ Jetman jr is written by:
 
 * [Sven Anders Robbestad](http://twitter.com/realsven), Professional web developer working at SOL.no, amateur game developer on the side 
 * Some game art is downloaded from opengameart.org, the rest is created by the developer under the same license as the game code. 
-* Music is by Metaruka from opengameart.org
+* Music is by Metaruka from opengameart.org (http://opengameart.org/content/game-game)
 
