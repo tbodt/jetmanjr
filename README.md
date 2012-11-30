@@ -43,7 +43,7 @@ Screenshots
 
 How to play
 -------------
-Move with arrow keys, [j] to jump, [z] to drop dynamites and [space] to shoot
+Move with arrow keys, [j] to jump, [z] to drop dynamites and [space] or [c] to shoot
 
 Credit
 -------------
@@ -52,4 +52,5 @@ Jetman jr is written by:
 * [Sven Anders Robbestad](http://twitter.com/realsven), Professional web developer working at SOL.no, amateur game developer on the side 
 * Some game art is downloaded from opengameart.org, the rest is created by the developer under the same license as the game code. 
 * Music is by Metaruka from opengameart.org (http://opengameart.org/content/game-game)
+* SFX created with CFXR
 
