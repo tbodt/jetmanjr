@@ -9,6 +9,13 @@ After the inital tutorial level, you are presented with a screen that branches a
 separate routes (and one that just leads to your untimely death). They all take you to a final level
 where you will eventually find "old man git". 
 
+Installation
+-------------
+Clone and point a your localhost to the folder that was created. To play the game, run index.html, which links
+to the minified version of the game. 
+The game files are located in lib/games. To run the unminified game you also need a copy of the impactjs game
+engine. 
+
 License
 -------------
 The game code for Jetman jr is released under non-commercial BSD (http://opensource.org/licenses/BSD-3-Clause), 
