@@ -1,32 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Jetman Jr</title>
-	<style type="text/css">
-		html,body {
-			background-color: #000;
-			color: #fff;
-			font-family: helvetica, arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			font-size: 12pt;
-		}
-		
-		#canvas {
-			position: absolute;
-			left: 0;
-			right: 0;
-			top: 0;
-			bottom: 0;
-			margin: auto;
-			border: 1px solid #555;
-		}
-	</style>
+    <meta charset="utf-8">
 
-	<script type="text/javascript" src="lib/impact/impact.js"></script>
-	<script type="text/javascript" src="lib/game/main.js"></script>
-</head>
-<body>
-	<canvas id="canvas"></canvas>
+        <title>Jetman jr</title>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- icons -->
+        <!-- Will be displayed in most browsers other than old IE versions -->
+        <link href="/min/?g=css" media="screen" rel="stylesheet" type="text/css">
+        <link href="/images/favicon.ico" rel="shortcut icon">
+        <link href="/images/icons/favicon.ico" rel="shortcut icon">
+        <link href="/images/icons/ios-icon.png" rel="apple-touch-icon">
+        <link href="/images/icons/vector-social-media/32px/star.png" rel="icon">
+        </head>
+
+<body onload="">
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">Svenardo</a>
+              
+          <div class="nav-collapse collapse" style="height: 0px;">
+            <ul class="nav">
+
+            <li 
+            class="active"
+            ><a href="http://www.svenardo.com/">Home</a></li>
+
+            <li 
+            ><a href="http://www.svenardo.com/about/">About</a></li>
+
+            <li 
+            ><a href="http://www.svenardo.com/donate/">Donate</a></li>
+
+
+            <li 
+            ><a href="http://www.svenardo.com/games">Arcade</a></li>
+
+            <li 
+            ><a href="http://www.svenardo.com/blog">Blog</a></li>
+
+            <li 
+            >
+            <a href="http://www.svenardo.com/user">Login</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid">
+<div class="row">
+    &nbsp;
+</div>
+
+<div class="row">
+     <div class="span3">
+      <p>
+      <h3>Puzzle Your Photos</h3>
+      <center><img src="/thumb.php?src=/media/pyp175.jpg&w=100" class="img-rounded"></center><br/>
+      If you have a iPhone or iPad, why not check out
+      <a href="https://itunes.apple.com/no/app/puzzle-your-photos/id614142534?l=nb&mt=8">Puzzle your photos</a>? Take
+      any photo from your camera library and make it into a puzzle
+      game. Perfect for when you have five minutes to spare. 
+      </p>
+      
+      <p>
+      <h3>Super POP!</h3>
+      <center><img src="/thumb.php?src=/media/pop.jpg&w=100" class="img-rounded"></center><br/>
+      Got kids? They'll love 
+      <a href="https://itunes.apple.com/no/app/super-pop!/id623197076?l=nb&mt=8">Super POP!</a> Pop the balloons, but avoid
+      the birds! Also available for <a href="http://apps.microsoft.com/windows/app/super-pop/71318285-5650-4772-9015-fc14279d09f5">Windows 8/Microsoft Surface</a>.
+      </p>
+
+      <p>
+      <a href="http://www.svenardo.com/games">More games at Svenardo Arcade</a>
+      </p>
+      <p>
+      <a href="https://twitter.com/svenardocom">Follow me on Twitter</a>
+      </p>
+    
+
+          
+        
+   </div>
+<div class="span8">
+      <canvas id="canvas"></canvas>
+      <h4>Jetman Jr</h4>
+      <h5>How to play</h5>
+      <p>
+        C - Shoot<br/>
+        Z - Drop dynamite<br/>
+        Arrow keys - move<br/>
+      </p>
+   
+   </div>
+
+  
+
+   
+
+</div>
+
+ 
+
+
+
+		</div>
+	
+    
+    </div>
+    
+     
+        <div id="push">  
+            <p class="muted credit"><center>&copy; Sven A Robbestad. All rights reserved.</center></p>
+        </div>
+    </div>
+    
+<!-- REQUIRED - all the javascripts  -->     
+
+    <script type="text/javascript">
+//FAST ARRAY SEARCH
+      Array.prototype.contains = function(obj) {
+          var i = this.length;
+          while (i--) {
+              if (this[i] === obj) {
+                  return true;
+              }
+          }
+          return false;
+      }
+    </script>
+
+
+    <script type="text/javascript" src="game.js"></script>
+    <script src="/min/?g=js"></script>
+
+
 </body>
 </html>
