@@ -61,7 +61,9 @@
         C - Shoot  <br/>
         Z - Drop dynamite  <br/>
       </p>
-   
+   </div>
+
+   div class="span2">
    
   <?php include_once '../includes/html/column-right.html'; ?>
     
