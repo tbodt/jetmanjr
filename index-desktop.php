@@ -37,7 +37,7 @@
       </div>
     </div>
 
-<div class="container">
+<div class="container-fluid">
 <div class="row">
     &nbsp;
 </div>
@@ -52,7 +52,8 @@
       <canvas id="canvas"></canvas>
     </center>
    </div>
-
+   </div>
+<div class="row">
    <div class="span2">
       <h5>How to play</h5>
       <p>
