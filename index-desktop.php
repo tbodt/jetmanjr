@@ -54,7 +54,7 @@
    </div>
    </div>
 <div class="row">
-   <div class="span2">
+   <div class="span3">
       <h5>How to play</h5>
       <p>
         Arrow keys - move<br/>
@@ -63,9 +63,16 @@
       </p>
    </div>
 
-   <div class="span2">
+   <div class="span3">
    
-  <?php include_once '../includes/html/column-right.html'; ?>
+  <?php include_once '../includes/html/column-right1.html'; ?>
+    
+   </div>
+
+
+   <div class="span3">
+   
+  <?php include_once '../includes/html/column-right2.html'; ?>
     
    </div>
 
