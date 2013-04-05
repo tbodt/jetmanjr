@@ -37,14 +37,14 @@
       </div>
     </div>
 
-<div class="container-fluid">
+<div class="container">
 <div class="row">
     &nbsp;
 </div>
 
 
 <div class="row">
-    <div class="span2">
+    <div class="span3">
         <?php include_once '../includes/html/column-left.html'; ?>
    </div>
    <div class="span8">
