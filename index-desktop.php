@@ -63,7 +63,7 @@
       </p>
    </div>
 
-   div class="span2">
+   <div class="span2">
    
   <?php include_once '../includes/html/column-right.html'; ?>
     
