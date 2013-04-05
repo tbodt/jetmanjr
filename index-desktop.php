@@ -44,24 +44,18 @@
 
 
 <div class="row">
-   <div class="span11">
+    <div class="span2">
+        <?php include_once '../includes/html/column-left.html'; ?>
+   </div>
+   <div class="span8">
     <center>
       <canvas id="canvas"></canvas>
     </center>
    </div>
-</div>
-<div class="row">
-  <div class="span1">
-        &nbsp;
-   </div>
-    <div class="span5">
-        <?php include_once '../includes/html/column-left.html'; ?>
-   </div>
 
-   <div class="span5">
+   <div class="span2">
       <h5>How to play</h5>
       <p>
-
         Arrow keys - move<br/>
         C - Shoot  <br/>
         Z - Drop dynamite  <br/>
