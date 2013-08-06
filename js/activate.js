@@ -30,10 +30,10 @@ function buttonPos(){
     var padding=11.5;
     //var leftPos=$("#canvas").css("marginLeft");
 
-    var leftNumericPos=parseInt($("#canvas").css("marginLeft").replace(/[^-\d\.]/g, ''),10)*3;
-    if(leftNumericPos===0) leftNumericPos=$("#canvas").css("left").replace(/[^-\d\.]/g, '')*3;
+    var leftNumericPos=parseInt($("#canvas").css("marginLeft").replace(/[^-\d\.]/g, ''),10);
+    if(leftNumericPos===0) leftNumericPos=$("#canvas").css("left").replace(/[^-\d\.]/g, '');
 
-    var midpos=parseInt((($("#canvas").css("width").replace(/[^-\d\.]/g, '')),10)*3)+45;
+    var midpos=(($("#canvas").css("width").replace(/[^-\d\.]/g, '')),10)+45;
 
 /*
     $(".btnStart").css("display","none");
@@ -60,17 +60,21 @@ function buttonPos(){
     $(".speedDown").fadeIn('slow');
 */
     $("#bottom").css("display","none");
-    $("#bottom").css("bottom","20px");
-    $("#bottom").css("left",(parseInt(leftNumericPos,10)+parseInt(190,10))+"px");
+    $("#bottom").css("top",((canvas.height)+160)+"px");
+//    $("#bottom").css("left",(((document.width)/2)-120)+"px");
+    $("#blurb").css("zIndex","9999");
+    $("#bottom").css("zIndex","9999");
     $("#bottom").fadeIn('slow');
-
     $("#blurb").css("display","none");
-    $("#blurb").css("top","570px");
-    $("#blurb").css("left",(parseInt(leftNumericPos,10)+parseInt(120,10))+"px");
+    //$("#blurb").css("top",((canvas.height)+185)+"px");
+
+
+    $("#blurb").css("left",(((document.width)/2)-160)+"px");
     $("#blurb").fadeIn('slow');
-$("#canvas").css("height","80%");
-$("#canvas").css("width","95%");
+    $("#canvas").css("height","80%");
+    $("#canvas").css("width","95%");
     $("#canvas").fadeIn('slow');
+    $("#canvas").css('zIndex','-9999');
 
 }
 

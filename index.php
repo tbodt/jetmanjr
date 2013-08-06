@@ -7,4 +7,4 @@ else {
 	include('index-desktop.html');
 }
 */
-include 'index-desktop.php';
+include 'index2.html';
